@@ -1,5 +1,6 @@
 README.
 
+
 This program is an implementation of the diffusion probabilistic model to generate 2D gaussian data. https://arxiv.org/abs/1503.03585
 
 The implementation is done entirely using JAX, Google's numerical computing library, and does not rely on external deep learning libraries like TensorFlow or PyTorch.
@@ -12,6 +13,7 @@ To run, simply run main.py / install any required libaries (See JAX documentatio
 IMPORTANT: Each step in the process will not continue unless current graph window has been closed. (This was done to reduce computational resources and prevent crashing). If it looks as if program is not running, make sure current graph window is closed.
 
 
+Contributions: Credit to Muhammed.S for Documentation
 
 
 --------------------------------------------------------
