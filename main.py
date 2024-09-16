@@ -73,8 +73,6 @@ def main():
     plt.ylabel('Y-axis')
     plt.grid(True)
     plt.show()
-
-    # Place this code after both 'data' and 'samples' are available
     plt.figure(figsize=(6, 6))
     plt.scatter(data[:, 0], data[:, 1], alpha=0.5, label='Input Data')
     plt.scatter(samples[:, 0], samples[:, 1], alpha=0.5, label='Generated Data')
